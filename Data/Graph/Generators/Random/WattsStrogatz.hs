@@ -24,10 +24,7 @@ module Data.Graph.Generators.Random.WattsStrogatz (
     where
 
 import System.Random.MWC
-import Control.Monad
 import Data.Graph.Generators
-import Control.Applicative ((<$>))
-import qualified Data.Map as Map
 import qualified Data.Set as Set
 
 {-|
